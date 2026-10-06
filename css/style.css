@@ -1,0 +1,98 @@
+:root {
+  --verde: #2f6b4f;
+  --verde-escuro: #1f4a37;
+  --terra: #c8794a;
+  --creme: #faf6ef;
+  --texto: #2b2b2b;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--texto);
+  background: #fff;
+  line-height: 1.6;
+}
+
+/* Topo */
+.topo {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 14px 6%;
+  background: var(--verde);
+}
+.logo { color: #fff; font-weight: 700; font-size: 1.3rem; text-decoration: none; }
+.topo nav a { color: #fff; text-decoration: none; margin-left: 18px; font-size: .95rem; }
+.topo nav a:hover { text-decoration: underline; }
+.btn-menu { background: var(--terra); padding: 6px 14px; border-radius: 20px; }
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 90px 8%;
+  background: linear-gradient(135deg, var(--creme), #e4efe8);
+}
+.hero h1 { font-size: 2.4rem; color: var(--verde-escuro); margin-bottom: 16px; }
+.hero p { max-width: 640px; margin: 0 auto 28px; font-size: 1.1rem; }
+
+/* Botões */
+.btn {
+  display: inline-block; border: none; cursor: pointer;
+  background: var(--terra); color: #fff;
+  padding: 12px 26px; border-radius: 30px;
+  text-decoration: none; font-size: 1rem; font-weight: 600;
+}
+.btn:hover { background: #b0663b; }
+.btn.pequeno { padding: 8px 18px; font-size: .9rem; margin-top: 10px; }
+
+/* Blocos */
+.bloco { padding: 60px 8%; text-align: center; }
+.bloco.claro { background: var(--creme); }
+.bloco h2 { color: var(--verde-escuro); font-size: 1.9rem; margin-bottom: 8px; }
+.sub { margin-bottom: 30px; color: #666; }
+
+.grade { display: grid; gap: 22px; margin-top: 24px; }
+.grade.tres { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+
+.card {
+  background: #fff; padding: 26px; border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.08);
+}
+.card h3 { color: var(--verde); margin: 8px 0; }
+.icone { font-size: 2rem; }
+
+/* Produtos */
+.produto {
+  background: #fff; border-radius: 14px; overflow: hidden;
+  padding-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,.08);
+}
+.foto { height: 170px; display: flex; align-items: center; justify-content: center; font-size: 4rem; }
+.cor1 { background: #cfe0d6; }
+.cor2 { background: #f1d9c6; }
+.cor3 { background: #e8e1cf; }
+.produto h3 { margin: 14px 0 4px; color: var(--verde-escuro); }
+.preco { font-weight: 700; color: var(--terra); font-size: 1.1rem; }
+.rastreio { font-size: .9rem; color: #555; }
+
+/* Formulário */
+.form {
+  max-width: 440px; margin: 0 auto; text-align: left;
+  display: flex; flex-direction: column; gap: 6px;
+}
+.form label { font-weight: 600; margin-top: 8px; }
+.form input, .form select {
+  padding: 10px; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;
+}
+.form .btn { margin-top: 18px; }
+
+/* Rodapé */
+.rodape { background: var(--verde-escuro); color: #fff; text-align: center; padding: 22px; font-size: .9rem; }
+
+/* Celular */
+@media (max-width: 600px) {
+  .topo { flex-direction: column; gap: 8px; }
+  .topo nav a { margin: 0 8px; }
+  .hero h1 { font-size: 1.8rem; }
+}

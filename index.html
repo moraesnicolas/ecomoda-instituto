@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Instituto EcoModa: moda sustentável feita por artesãs, com rastreabilidade de impacto social e ambiental em cada peça.">
+  <title>Instituto EcoModa | Moda sustentável com história</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <a class="logo" href="#inicio">🌿 EcoModa</a>
+    <nav>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#vitrine">Vitrine</a>
+      <a href="#artesas">Artesãs</a>
+      <a href="#contato" class="btn-menu">Comprar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <h1>Cada peça tem rosto, mãos e história.</h1>
+      <p>Moda feita com tecidos reaproveitados por mulheres artesãs. Compre de qualquer lugar do Brasil e saiba exatamente quem produziu a sua peça e qual impacto ela gerou.</p>
+      <a href="#vitrine" class="btn">Ver vitrine</a>
+    </section>
+
+    <section id="como-funciona" class="bloco">
+      <h2>Como funciona</h2>
+      <div class="grade tres">
+        <div class="card"><span class="icone">1️⃣</span><h3>Escolha</h3><p>Veja as peças únicas disponíveis e a artesã que produziu cada uma.</p></div>
+        <div class="card"><span class="icone">2️⃣</span><h3>Pague</h3><p>Frete calculado pelo CEP e pagamento por PIX, tudo em um só lugar.</p></div>
+        <div class="card"><span class="icone">3️⃣</span><h3>Acompanhe</h3><p>Receba em casa e veja o impacto social e ecológico da sua compra.</p></div>
+      </div>
+    </section>
+
+    <section id="vitrine" class="bloco claro">
+      <h2>Vitrine</h2>
+      <p class="sub">Peças únicas: quando acabam, acabam. (Exemplos ilustrativos)</p>
+      <div class="grade tres">
+
+        <article class="produto">
+          <div class="foto cor1">👜</div>
+          <h3>Bolsa Retalho Jeans</h3>
+          <p class="preco">R$ 89,90</p>
+          <p class="rastreio">🧵 Feita por <strong>Maria</strong></p>
+          <p class="rastreio">♻️ 0,8 kg de tecido reaproveitado</p>
+          <a class="btn pequeno" href="#contato">Quero esta</a>
+        </article>
+
+        <article class="produto">
+          <div class="foto cor2">👗</div>
+          <h3>Vestido Patchwork</h3>
+          <p class="preco">R$ 159,00</p>
+          <p class="rastreio">🧵 Feita por <strong>Joana</strong></p>
+          <p class="rastreio">♻️ 1,2 kg de tecido reaproveitado</p>
+          <a class="btn pequeno" href="#contato">Quero esta</a>
+        </article>
+
+        <article class="produto">
+          <div class="foto cor3">🧣</div>
+          <h3>Lenço de Algodão Cru</h3>
+          <p class="preco">R$ 45,00</p>
+          <p class="rastreio">🧵 Feita por <strong>Ana</strong></p>
+          <p class="rastreio">♻️ 0,3 kg de tecido reaproveitado</p>
+          <a class="btn pequeno" href="#contato">Quero esta</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="artesas" class="bloco">
+      <h2>Nossas artesãs</h2>
+      <p class="sub">Parte de cada venda vai direto para quem produziu a peça.</p>
+      <div class="grade tres">
+        <div class="card"><span class="icone">👩‍🎨</span><h3>Maria</h3><p>Especialista em acessórios de jeans reaproveitado.</p></div>
+        <div class="card"><span class="icone">👩‍🎨</span><h3>Joana</h3><p>Mestra em patchwork e peças coloridas.</p></div>
+        <div class="card"><span class="icone">👩‍🎨</span><h3>Ana</h3><p>Cuida dos acabamentos e das peças em algodão.</p></div>
+      </div>
+    </section>
+
+    <section id="contato" class="bloco claro">
+      <h2>Fale com a gente</h2>
+      <p class="sub">Escolha sua peça e envie seu CEP. Retornamos com o frete e o PIX.</p>
+      <form class="form" action="#" method="post" onsubmit="event.preventDefault(); alert('Obrigado! Em breve entraremos em contato. (formulário demonstrativo)');">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Seu nome" required>
+
+        <label for="cep">CEP</label>
+        <input type="text" id="cep" placeholder="00000-000" required>
+
+        <label for="peca">Peça desejada</label>
+        <select id="peca">
+          <option>Bolsa Retalho Jeans</option>
+          <option>Vestido Patchwork</option>
+          <option>Lenço de Algodão Cru</option>
+        </select>
+
+        <button type="submit" class="btn">Enviar pedido</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>© 2026 Instituto EcoModa · Moda sustentável com impacto social</p>
+  </footer>
+
+</body>
+</html>
