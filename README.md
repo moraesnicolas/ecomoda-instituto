@@ -1,8 +1,8 @@
-# 🌿 ecomoda-instituto
+#  ecomoda-instituto
 
 Site institucional e vitrine online do **Instituto EcoModa**, ONG e marca de moda sustentável que faz upcycling de tecidos e emprega mulheres em situação de vulnerabilidade social.
 
-🔗 **Site publicado:** `https://SEU-USUARIO.github.io/ecomoda-instituto/`
+ **Site publicado:** `https://Moraesnicolas.github.io/ecomoda-instituto/`
 
 ## 1. Briefing do problema
 
@@ -37,8 +37,6 @@ Um app móvel ou um sistema completo seriam mais caros e mais lentos de entregar
 | **Vitrine** | Cards de peças únicas com preço, artesã e impacto |
 | **Nossas artesãs** | Humaniza a marca |
 | **Contato / Pedido** | Formulário com nome, CEP e peça desejada |
-
-> 📸 Adicione aqui prints do site em `docs/` (ex.: `![Home](docs/home.png)`).
 
 ## 4. Arquitetura
 
@@ -79,7 +77,3 @@ Nenhuma credencial, senha, token ou chave de API é usada ou versionada neste pr
 - Integrar cálculo de frete por CEP e pagamento PIX automático
 - Painel de estoque para peças únicas
 - Página individual de cada peça com QR code de rastreabilidade
-
-## 8. Licença
-
-Distribuído sob a licença [MIT](LICENSE).
